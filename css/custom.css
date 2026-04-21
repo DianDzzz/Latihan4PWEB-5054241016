@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     text-align: center;
     color: gray;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -154,7 +162,7 @@ table{
 .footer{
     background-color: #000000;
     color: rgb(95, 95, 95);
-    padding: 10px;
+    padding: 5px;
     text-align: left;
 }
 
@@ -172,4 +180,22 @@ table{
     margin-left: auto;
     margin-right: auto;
     color:#000000;
+}
+
+.loginTable{
+    text-align: center;
+    background-color: #3c3e3f;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+
+.loginform{
+    text-align: center;
+        padding: 50px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    font-family: Helvetica;
 }
